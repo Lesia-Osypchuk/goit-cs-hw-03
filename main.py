@@ -11,8 +11,6 @@ try:
 except errors.ConnectionError as e:
     print(f"Could not connect to MongoDB: {e}")
 
-from pymongo import MongoClient
-
 
 # Створення екземпляру Faker
 fake = Faker()
